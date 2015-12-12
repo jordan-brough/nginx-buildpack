@@ -28,7 +28,7 @@ http {
 
 	upstream app_server {
 		#server unix:/tmp/nginx.socket fail_timeout=0;
-		server http://www.bing.com fail_timeout=0;
+		server www.bing.com fail_timeout=0;
  	}
 
 	server {
